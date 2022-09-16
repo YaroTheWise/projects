@@ -1,8 +1,6 @@
 package hackerrank;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import com.hackerrank.oneweek.MatrixRotation;
@@ -41,7 +39,7 @@ public class MatrixRotationTest {
         objects4.add(8);
         matrix.add(objects4);
 
-        MatrixRotation.matrixRotation(matrix,1);
+        MatrixRotation.matrixRotation(matrix, 1);
     }
 
     @Test
@@ -72,7 +70,7 @@ public class MatrixRotationTest {
         objects4.add(16);
         matrix.add(objects4);
 
-        MatrixRotation.matrixRotation(matrix,1);
+        MatrixRotation.matrixRotation(matrix, 1);
     }
 
     @Test
@@ -86,6 +84,6 @@ public class MatrixRotationTest {
         objects2.add(1);
         objects2.add(1);
         matrix.add(objects2);
-        MatrixRotation.matrixRotation(matrix,1);
+        MatrixRotation.matrixRotation(matrix, 1);
     }
 }
